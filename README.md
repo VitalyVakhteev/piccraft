@@ -27,3 +27,5 @@ Unfortunately, due to complications with the underlying Camunda processes used, 
 Images were also originally intended to be converted into 3D meshes to enable complete structure rendering in Minecraft, but the difficulty of implementing 2D generation alone meant that 3D rendering was shelved for future implementation.
 
 In the future, AI generation and NFT rendering will be completely fleshed out and added. 3D rendering can also be implemented as a second priority, given enough time.
+
+For a quick technical paper, check out [our link](https://drive.google.com/file/d/1p2ermEQWstCXOIDgcE0RF-rVJzBOlOcb/view?usp=sharing).
