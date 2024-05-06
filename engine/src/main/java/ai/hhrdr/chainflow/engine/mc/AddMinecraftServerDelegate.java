@@ -7,6 +7,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
 
+import camundajar.impl.com.google.gson.JsonObject;
 import org.camunda.bpm.engine.delegate.DelegateExecution;
 import org.camunda.bpm.engine.delegate.JavaDelegate;
 import org.springframework.beans.factory.annotation.Value;
@@ -15,7 +16,6 @@ import java.util.logging.Logger;
 
 import ai.hhrdr.chainflow.engine.LoggerDelegate;
 
-import com.google.gson.JsonObject;
 
 @Component("minecraftAddDelegate")
 public class AddMinecraftServerDelegate implements JavaDelegate {
