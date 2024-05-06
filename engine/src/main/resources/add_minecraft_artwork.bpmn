@@ -11,7 +11,7 @@
       </bpmn:extensionElements>
       <bpmn:outgoing>Flow_0f5e8fr</bpmn:outgoing>
     </bpmn:startEvent>
-    <bpmn:serviceTask id="Activity_0tvlm5r" name="Add Artwork" camunda:class="ai.hhrdr.chainflow.engine.AddArtworkDelegate">
+    <bpmn:serviceTask id="Activity_0tvlm5r" name="Add Artwork" camunda:class="ai.hhrdr.chainflow.engine.LoggerDelegate">
       <bpmn:extensionElements />
       <bpmn:incoming>Flow_0090scl</bpmn:incoming>
       <bpmn:outgoing>Flow_0pysvh6</bpmn:outgoing>
